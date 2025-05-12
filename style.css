@@ -1,0 +1,159 @@
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+/*text-decoration: none;*/
+font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+header{
+background-color: #757ca3;
+width:100%;
+height:80px;
+font-size: 60px;
+}
+
+
+.navbar-items {
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.navbar-items li{
+  margin-top: 25px;
+  font-size: 20px;
+  color: rgb(248, 247, 247);
+  
+}
+.navbar-items a{
+  margin: 20px;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(248, 247, 247);
+  text-decoration: none;
+  
+}
+.navbar-items a:hover{
+color: rgba(205, 195, 195, 0.523);
+}
+.navbar-items a:active{
+  text-decoration: underline;
+
+}
+#Home-section{
+width:100%;
+background:rgb(248, 247, 247);
+display :flex;
+align-items:center;
+text-align: center;
+}
+.Home-text{
+  width:60%;
+}
+
+.Home-text h1 {
+font-size: 70px;
+font-style: italic;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:#757ca3;
+}
+
+.Home-text p{
+font-size: 40px;
+font-family: 'Times New Roman', Times, serif;
+color: grey;
+}
+
+.img-box img{
+  width:350px;
+  margin:0px;
+  padding:40px;
+}
+
+
+
+#Expertise-section{
+  background-color: rgb(248, 247, 247);
+}
+.Expertise-container {
+display: flex; /*list the card horizonally*/
+justify-content: center; 
+flex-wrap: wrap;
+margin-top: 10px; /* will be changed when the about section is done*/
+}
+
+.Expertise-card{
+  width:550px;
+  background-color: rgb(214, 212, 212);
+  border-radius: 10px; /*cut the edges*/
+  overflow: hidden;/* • visible - Default. The overflow is not clipped. The content renders outside the element's box
+  • hidden - The overflow is clipped, and the rest of the content will be invisible
+  • scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content
+  • auto - Similar to scroll, but it adds scrollbars only when necessary*/
+  margin: 20px;
+}
+
+.Expertise-card img{
+width:100%;
+height: auto;
+}
+#card-contents p{
+  color: #1f212d;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-style: bold;
+}
+#card-contents h2 {
+  color: #424659;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-align: center;
+}
+#about-section{
+background-color: #757ca3;
+width:auto;
+height:400px;
+color:aliceblue;
+padding-left: 10%;
+padding-top: 60px;
+}
+
+#about-section h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#about-section p{
+font-size: 23px;
+font-family:'Times New Roman', Times, serif;
+    
+}
+
+#contacts-section{
+background-color: #757ca3;
+width:100%;
+height:80px;
+}
+
+.navbar-contacts-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-contacts li{
+  margin-top: 25px;
+  font-size: 20px;
+  }
+  .navbar-contacts a{
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(248, 247, 247);
+    font-style: bold;
+    text-decoration: none;
+  }
+  .navbar-contacts a:hover{
+    color: #424659;
+  }
